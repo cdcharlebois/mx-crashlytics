@@ -1,5 +1,5 @@
 # mx-crashlytics
-A plug-n-play wrapper for Firebase Crashlytics in your Mendix Native app
+A plug-n-play wrapper for [Firebase Crashlytics](https://rnfirebase.io/reference/crashlytics) in your Mendix Native app
 
 Firebase Crashlytics is a real time crash reporting tool, helps you prioritize and fix your most pervasive crashes based on the impact on real users. This module instruments your Mendix native app to send logs, error reports, and crashes to your Crashlytics dashboard.
 
