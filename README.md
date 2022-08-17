@@ -1,5 +1,13 @@
-:warning: | Due to a breaking change in the underlying API, this module will cause apps developed in Mendix versions 9.13 and up to fail to startup. A fix is in progress and this module still works as expected up to, and including, 9.12.x
+:warning: | Due to a breaking change in the underlying API, this module will cause apps developed in Mendix versions 9.13 and up to fail to startup. A fix is in progress and this module still works as expected up to, and including, 9.12.x. See the table below for details.
 :---: | :---
+
+Mx Version | MxCrashlytics 2.0.0 | MxCrashlytics 3.0.0
+:---: | :---: | :---:
+9.6.0 - 9.12.x | ✅ | ✅ 
+9.13.0 - 9.15.x | ❌ | ❌
+9.16.0+ | ❌ | ✅ 
+
+
 
 # mx-crashlytics
 A plug-n-play wrapper for [Firebase Crashlytics](https://rnfirebase.io/reference/crashlytics) in your Mendix Native app
